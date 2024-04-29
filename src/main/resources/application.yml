@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: postgres
+
+datasource:
+  customs:
+    query-timeout: 20
+  my-connection:
+    jdbc-url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 123456
+    maximum-pool-size: 10
+    pool-name: "crud-pool"
+    auto-commit: true
+
+
